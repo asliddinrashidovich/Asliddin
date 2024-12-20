@@ -1,0 +1,90 @@
+.resume {
+    background-color: #212429;
+    padding: 80px 0;
+    .container {
+        h2 {
+            @include heading2;
+        }
+        .line {
+            @include line;
+        }
+        .resume__cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 60px;
+            .resume__header {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                margin-bottom: 30px;
+                h3 {
+                    @include heading3;
+                    margin-bottom: 0;
+                    color: #fff;
+                }
+            }
+            .resume__card {
+                background-color: #111419;
+                border-radius: 10px;
+                transition: $tran;
+                cursor: pointer;
+                padding: 24px;
+                margin-bottom: 30px;
+                h4 {
+                    font-size: 24px;
+                    line-height: 32px;
+                    font-weight: 600;
+                    margin-bottom: 15px;
+                }
+                .card__title  {
+                    color: #fff;
+                }
+                p {
+                    @include text6;
+                    color: #fff;
+                    opacity: 50%;
+                }
+            }
+            .resume__card:hover{
+                transform: scale(105%);
+            }
+        }
+        h3 {
+            @include heading3;
+            text-align: center;;
+            color: #fff;
+            margin: 40px 0;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+            .skill {
+                width: 200px;
+                height: 200px;
+                flex-shrink: 0;
+                background-color: #111419;
+                border-radius: 8px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: $tran;
+                cursor: pointer;
+                img {
+                    width: 100px;
+                    height: 100px;
+                }
+            }
+            .skill:hover {
+                transform: scale(105%)
+            }
+            .white {
+                img {
+                    background-color: #fff;                    
+                    border-radius: 9px;
+                }
+            }
+        }
+    }
+}

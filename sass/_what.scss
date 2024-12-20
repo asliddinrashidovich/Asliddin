@@ -1,0 +1,45 @@
+.what {
+    background-color: #353a40;
+    padding: 80px 0 ;
+    .container {
+        h2 {
+            @include heading2;
+        }
+        .line {
+            @include line
+        }
+        .what__cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            .what__card {
+                display: flex;
+                justify-content: start;
+                gap: 20px;
+                .card__img {
+                    display: flex;
+                    flex-shrink: 0;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 30px;
+                    width: 100px;
+                    height: 100px;
+                    background-color: #212429;
+                    color: $maingreen;
+                    border-radius: 7px;
+                }
+                .card__body {
+                    h4 {
+                        @include heading4;
+                        color: #fff;
+                        margin-bottom: 12px;
+                    }
+                    p {
+                        @include text6;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}

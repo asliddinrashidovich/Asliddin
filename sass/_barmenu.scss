@@ -1,0 +1,54 @@
+.bar__menu {
+    .bar__left {
+        transition: all ease 0.5s;
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background-color: #2d3137;
+        z-index: 200;
+        padding: 50px;
+        i {
+            font-size: 30px;
+            color: $maingreen;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        ul {
+            list-style: none;
+            text-align: center;
+
+            li {
+                width: 100%;
+                padding: 10px;
+                border: 2px solid #555;
+                margin-bottom: 8px;
+                cursor: pointer;
+                border-radius: 7px;
+                color: #fff;
+                transition: $tran;
+                opacity: 50%;
+                a {
+                    font-size: 25px
+                }
+            }
+            li:hover {
+                background-color: $maingreen;
+                border-color: $maingreen;
+                color: black;
+                opacity: 100%;
+            }
+        }
+        .arrowleft {
+            display: flex;
+            justify-content: space-between;
+        }
+   }
+   .overlay {
+    position: fixed;    
+    width: 60%;
+    display: none;
+    height: 100%;
+    right: 0;
+    z-index: 200;
+   } 
+}

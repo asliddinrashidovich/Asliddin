@@ -1,0 +1,49 @@
+// colors
+$maingreen : #21c998;
+
+// trasntion
+$tran : all ease 0.3s;
+
+@mixin heading2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+@mixin heading3 {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+@mixin heading4 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+}
+
+@mixin text4 {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    opacity: 70%;
+}
+@mixin text6 {
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+@mixin line {
+    width: 100px;
+    height: 4px;
+    background-color: $maingreen;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
