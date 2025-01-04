@@ -79,6 +79,9 @@ a {
   margin: 0 auto;
 }
 
+.bar__menu {
+  display: none;
+}
 .bar__menu .bar__left {
   transition: all ease 0.5s;
   position: fixed;
@@ -866,7 +869,7 @@ footer .container i {
 }
 @media (max-width: 700px) {
   .hero {
-    padding: 30px;
+    padding-bottom: 30px;
   }
   .hero .container .hero__content {
     text-align: center;

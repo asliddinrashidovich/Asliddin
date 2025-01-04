@@ -9,11 +9,13 @@ bar.addEventListener('click', (e)=> {
     bar__left.classList.remove('transformLeft');
     bar__left.classList.add('transformRight');
     bar__overlay.style.display =  'flex'
+    bar__menu.style.display = 'flex'
 })
 arrowLeft.addEventListener('click', ()=> {
     bar__left.classList.add('transformLeft');
     bar__left.classList.remove('transformRight');
     bar__overlay.style.display =  'none'
+    bar__menu.style.display = 'flex'
 })
 bar__overlay.addEventListener('click', (e)=> {
     bar__left.classList.add('transformLeft');
@@ -45,3 +47,6 @@ download.addEventListener('click', () => {
 
   document.body.removeChild(a)
 })
+
+
+AOS.init();
