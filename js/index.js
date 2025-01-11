@@ -32,21 +32,40 @@ listitems.forEach((item)=> {
 })
 
 
-const download = document.getElementById('download_CV');
+const download = document.querySelectorAll('.download_CV');
 
-download.addEventListener('click', () => {
-  const fileUrl = "../images/CV/Asliddin_Resume.pdf";
-  const fileName = "Asliddin_Resume";
-
-  const a = document.createElement("a");
-  a.href = fileUrl;
-  a.download = fileName;
-
-  document.body.appendChild(a);
-  a.click();
-
-  document.body.removeChild(a)
+download.forEach((item) => {
+    item.addEventListener('click', () => {
+        const fileUrl = "../images/CV/Asliddin_Resume.pdf";
+        const fileName = "Asliddin_Resume";
+      
+        const a = document.createElement("a");
+        a.href = fileUrl;
+        a.download = fileName;
+      
+        document.body.appendChild(a);
+        a.click();
+      
+        document.body.removeChild(a)
+    })
 })
 
 
-AOS.init();
+
+document.querySelectorAll(".icon").forEach((icon) => {
+    icon.addEventListener("mousemove", (e) => {
+      const rect = icon.getBoundingClientRect();
+      const x = (e.clientX - rect.left - rect.width / 2) / 10; 
+      const y = (e.clientY - rect.top - rect.height / 2) / 10; 
+
+      const img = icon.querySelector("i");
+      img.style.transform = `translate(${x * 5}px, ${y * 5}px)`; 
+      icon.style.transform = `translate(${x * 5}px, ${y * 5}px)`; 
+  });
+  
+  icon.addEventListener("mouseleave", () => {
+      const img = icon.querySelector("i");
+      img.style.transform = "translate(0, 0)"; 
+      icon.style.transform = `translate(0, 0)`; 
+    });
+  });

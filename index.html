@@ -102,24 +102,24 @@
                 <h1 class="name">I am Asliddin</h1>
                 <h1 class="front">Frontend Developer</h1>
                 <p>I can help you build website for your business at an affordable price, and I make website look beautiful and easy to use, you can find out about me here.</p>
-                <div class="hero__icons">
-                    <a target="_blank" href="https://www.instagram.com/asliddin.norboyev_/">
-                        <i class="fa-brands fa-instagram"></i>  
+                <div class="hero__icons icon-container" id="icon">
+                    <a target="_blank" class="icon" data-depth="0.2" href="https://www.instagram.com/asliddin.norboyev_/">
+                        <i class="paralax-item fa-brands fa-instagram"></i>  
                     </a>
-                    <a target="_blank" href="https://t.me/asliddin_it_blog">
-                        <i class="text-xl fa-brands fa-telegram"></i>  
+                    <a target="_blank" class="icon" data-depth="0.3" href="https://t.me/asliddin_it_blog">
+                        <i class="paralax-item text-xl fa-brands fa-telegram"></i>  
                     </a>
-                    <a target="_blank" href="https://www.youtube.com/@AsliddinNorboyev_blog">
-                        <i class="text-xl fa-brands fa-youtube"></i>
+                    <a target="_blank" class="icon" data-depth="0.4" href="https://www.youtube.com/@AsliddinNorboyev_blog">
+                        <i class="paralax-item text-xl fa-brands fa-youtube"></i>
                     </a>
-                    <a target="_blank" href="https://www.linkedin.com/in/asliddin-rashidovich-774624336/">
-                        <i class="text-xl fa-brands fa-linkedin"></i>
+                    <a target="_blank" class="icon" data-depth="0.5" href="https://www.linkedin.com/in/asliddin-rashidovich-774624336/">
+                        <i class="paralax-item text-xl fa-brands fa-linkedin"></i>
                     </a>
                 </div>
-                <button id="download_CV" class="btn">Download CV <i class="fa-solid fa-download"></i></button>
+                <button id="download_CV" class="btn download_CV">Download CV <i class="fa-solid fa-download"></i></button>
             </div>
             <div class="hero__img">
-                <img src="./images/hero/hero_img.png" alt="hero image">
+                <img src="./images/hero/hero_image.png" alt="hero image">
             </div>
         </div>
      </section>
@@ -145,7 +145,7 @@
                     <p>Age: 18</p>
                     <div class="hr"></div>
                     <p>From: O'zbekiston, Surxondaryo</p>
-                    <button id="download_CV" class="btn">Download CV <i class="fa-solid fa-download"></i></button>
+                    <button id="download_CV" class="btn download_CV">Download CV <i class="fa-solid fa-download"></i></button>
                 </div>
             </div>
         </div>
@@ -236,34 +236,44 @@
             <h3 data-aos="fade-up" data-aos-duration="500">Skills</h3>
             <div class="skills">
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill">
-                    <img src="./images/scills/html.png" alt="skills">
+                    <img src="./images/scills/tools/html.jpg" alt="skills">
+                    <p>HTML</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500"  class="skill">
-                    <img src="./images/scills/css.png" alt="skills">
+                    <img src="./images/scills/tools/css.jpg" alt="skills">
+                    <p>CSS</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill">
-                    <img src="./images/scills/java-script.png" alt="skills">
+                    <img src="./images/scills/tools/javascript.jpg" alt="skills">
+                    <p>Javascript</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill">
-                    <img src="./images/scills/react.png" alt="skills">
+                    <img src="./images/scills/tools/react.jpg" alt="skills">
+                    <p>React JS</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill">
-                    <img src="./images/scills/git.png" alt="skills">
+                    <img src="./images/scills/tools/typescript.jpg" alt="skills">
+                    <p>Typescript</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill white">
-                    <img src="./images/scills/bootstrap.png" alt="skills">
+                    <img src="./images/scills/tools/bootstrap.jpg" alt="skills">
+                    <p>Bootstrap</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill">
-                    <img src="./images/scills/figma.png" alt="skills">
+                    <img src="./images/scills/tools/tailwind_css.png" alt="skills">
+                    <p>Tailwindcss</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill">
-                    <img src="./images/scills/tailwind.png" alt="skills">
+                    <img src="./images/scills/tools/git.jpg" alt="skills">
+                    <p>Git & Github</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill">
-                    <img src="./images/scills/sass.png" alt="skills">
+                    <img src="./images/scills/tools/sass.jpg" alt="skills">
+                    <p>Sass</p>
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="500" class="skill white">
-                    <img src="./images/scills/webpack.webp" alt="skills">
+                    <img src="./images/scills/tools/figma.jpg" alt="skills">
+                    <p>Figma</p>
                 </div>
             </div>
         </div>
@@ -431,11 +441,13 @@
     </footer>
     <!-- footer end -->
 
+
     <!-- js file -->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
     <script src="/js/particles.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="./js/app.js"></script>
     <script src="/js/index.js"></script>
+   
     <!-- <scrip>  -->
 
 </body>
