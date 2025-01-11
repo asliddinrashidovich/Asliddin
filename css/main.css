@@ -517,11 +517,14 @@ header .container .phone:hover {
   justify-content: center;
   align-items: center;
   transition: all ease 0.3s;
+  position: relative;
+  overflow: hidden;
   cursor: pointer;
 }
 .resume .container .skills .skill p {
   position: absolute;
   text-align: center;
+  bottom: -30px;
   font-size: 20px;
   font-weight: 600;
   z-index: 3;
