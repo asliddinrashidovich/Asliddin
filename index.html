@@ -14,6 +14,11 @@
     <!-- AOS animation -->
     <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
+    <!-- slides -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/parallax-js"></script>
+
     <!-- css -->
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="./images/Title image/AN_logo.svg">
@@ -93,7 +98,9 @@
             </a>
         </div>
     </header>
-    <!-- header end 
+    <!-- <!-- header end  -->
+
+    
      
     <!-- hero start -->
      <section class="hero" id="hero">
@@ -396,7 +403,7 @@
                             </div>
                             <h3>
                               <span class="marked">Email:</span><br>
-                              <span class="text">asliddinrashidovich7@gmail.com</span>
+                              <span class="text contect_email">asliddinrashidovich7@gmail.com</span>
                             </h3>
                         </a>
                     </div>
@@ -447,6 +454,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
     <script src="./js/app.js"></script>
     <script src="/js/index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/parallax-js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        const splide = new Splide('#splide', {
+            type: 'loop',        // Cheksiz slayder
+            autoplay: true,      // Avtomatik ravishda o'tish
+            interval: 2000,      // Har bir slayderni o'tkazish vaqti (2 soniya)
+            arrows: false,       // Tugmalarni o'chirish
+            pagination: false,   // Pastdagi nuqtalarni o'chirish
+            speed: 800,          // Slayder tezligi
+        });
+
+        splide.on('moved', function () {
+            // Har bir slayder o'zgarganda Parallaxni yangilash
+            const activeSlide = document.querySelector('.splide__slide.is-active .parallax-layer');
+            if (activeSlide) {
+            parallaxInstance.element = activeSlide;
+            parallaxInstance.refresh();
+            }
+        });
+
+        splide.mount(); // Splide-ni ishga tushirish
+
+        // Parallax.js-ni ishga tushirish
+        const activeSlide = document.querySelector('.splide__slide.is-active .parallax-layer');
+        const parallaxInstance = new Parallax(activeSlide);
+        });
+    </script>
    
     <!-- <scrip>  -->
 

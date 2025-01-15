@@ -7,6 +7,18 @@
         font-size: 18px;
         opacity: 70%;
     }
+    .bar__menu {
+        .bar__left {
+            padding: 30px;
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
     header {
         padding: 10px 0;
         .container {
@@ -201,6 +213,22 @@
     @mixin text4 {
         font-size: 16px;
     }
+    .bar__menu {
+        .bar__left {
+            padding: 10px;
+            i {
+                margin: 20px 0;
+            }
+            ul {
+                li {
+                    padding: 5px;
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
     .hero {
         padding-bottom: 30px;
         .container {
@@ -229,7 +257,7 @@
                     a {
                         width: 50px;
                         height: 50px;
-                        border: 2px solid black;
+                        border: 2px solid #21c998;
                         border-radius: 5px;
                         display: flex;
                         justify-content: center;
@@ -338,7 +366,7 @@
         .contact__layout {
             iframe {
                 order: 2;
-                width: 350px;
+                width: 300px;
                 margin: 0 auto;
             }
             .contact__content {
@@ -349,12 +377,13 @@
                 .contact__form {
                     .contact__link {
                         h3 {
-                            font-size: 16px;
+                            font-size: 14px;
                         }
                     }
                 }
                 .icons {
                     flex-wrap: wrap;
+                    display: none;
                 }
             }
         }

@@ -51,7 +51,7 @@ download.forEach((item) => {
 })
 
 
-
+// paralax 
 document.querySelectorAll(".icon").forEach((icon) => {
     icon.addEventListener("mousemove", (e) => {
       const rect = icon.getBoundingClientRect();
@@ -69,3 +69,33 @@ document.querySelectorAll(".icon").forEach((icon) => {
       icon.style.transform = `translate(0, 0)`; 
     });
   });
+
+
+// slides
+
+// Splide slayderni tashkil qilish
+document.addEventListener('DOMContentLoaded', function () {
+    const splide = new Splide('#splide', {
+      type: 'loop',        // Cheksiz slayder
+      perPage: 1,          // Bir vaqtning o‘zida bitta slayder
+      pagination: false,   // Pastdagi nuqtalarni o‘chirish
+      arrows: true,        // Oldinga va orqaga o‘tish tugmalari
+      speed: 800,          // Slayder tezligi
+    });
+  
+    splide.on('moved', function () {
+      // Har bir slayder o'zgarganda Parallaxni yangilash
+      const activeSlide = document.querySelector('.splide__slide.is-active .parallax-layer');
+      if (activeSlide) {
+        parallaxInstance.element = activeSlide;
+        parallaxInstance.refresh();
+      }
+    });
+  
+    splide.mount(); // Splide-ni ishga tushirish
+  
+    // Parallax.js-ni ishga tushirish
+    const activeSlide = document.querySelector('.splide__slide.is-active .parallax-layer');
+    const parallaxInstance = new Parallax(activeSlide);
+  });
+  
