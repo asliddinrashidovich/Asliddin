@@ -29,6 +29,10 @@ a {
   background: linear-gradient(90deg, #21c998, #034747);
 }
 
+.btn:active {
+  opacity: 0.5;
+}
+
 .marked {
   color: #21c998;
 }
@@ -153,6 +157,18 @@ header .container .bar {
   border: none;
   font-size: 25px;
   transition: all ease 0.3s;
+}
+header .container .header__logo {
+  width: 100px;
+  height: 50px;
+}
+header .container .header__logo img {
+  width: 150%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
 }
 header .container .bar:hover {
   cursor: pointer;
@@ -741,7 +757,7 @@ header .container .phone:hover {
 
 footer {
   background-color: #111419;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 footer .container {
   display: flex;
@@ -749,7 +765,19 @@ footer .container {
   align-items: center;
 }
 footer .container img {
-  width: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 150%;
+  transform: translate(-20%, -15%);
+  -o-object-position: center;
+     object-position: center;
+}
+footer .container .logo {
+  width: 100px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
 }
 footer .container i {
   font-size: 30px;

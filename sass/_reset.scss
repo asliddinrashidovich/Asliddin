@@ -24,6 +24,9 @@ a {
     cursor: pointer;
     background: linear-gradient(90deg, #21c998, #034747);
 }
+.btn:active {
+    opacity: 0.5;
+}
 
 .marked {
     color: #21c998;

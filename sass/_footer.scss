@@ -1,12 +1,22 @@
 footer {
     background-color: #111419;
-    padding: 10px 0;
+    padding: 20px 0;
     .container {
         display: flex;
         justify-content: space-between;
         align-items: center;
         img {
-            width: 75px;
+            object-fit: cover;
+            width: 150%;
+            transform: translate(-20%, -15%);
+            object-position: center;
+        }
+        .logo {
+            width: 100px;
+            height: 50px;
+            overflow: hidden;
+            border-radius: 10px;
+            background-color: #fff;
         }
         i {
             font-size: 30px;
