@@ -129,9 +129,12 @@
             }
             .portfolio__cards {
                 display: grid;
-                padding: 0 100px;
-                grid-template-columns: 1fr;
+                padding: 0 10px;
+                grid-template-columns: 1fr 1fr;
                 gap: 40px;
+            }
+            .mini_portfolioCards {
+                grid-template-columns: 1fr 1fr 1fr;
             }
             h3 {
                 @include heading3;
@@ -338,7 +341,11 @@
         padding: 40px 0;
         .container {
             .portfolio__cards {
-                padding: 0;
+                padding: 0 20px ;
+                grid-template-columns: 1fr;
+            }
+            .mini_portfolioCards {
+                grid-template-columns: 1fr 1fr;
             }
             h3 {
                 @include heading3;
