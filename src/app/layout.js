@@ -14,6 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/images/Title image/AN_logo.svg" />
+      </head>
       <body
         className={`${sora.variable} antialiased`}
       >

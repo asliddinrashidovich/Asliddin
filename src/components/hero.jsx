@@ -3,7 +3,6 @@
 import Link from "next/link"
 import { GridPattern } from "./magicui/grid-pattern"
 import { cn } from "@/lib/utils"
-import { FlickeringGridRoundedDemo } from "./magic-ui/background-sqr"
 import { FaInstagram } from "react-icons/fa6";
 import { SiTelegram } from "react-icons/si";
 import { FaYoutube } from "react-icons/fa";
@@ -67,12 +66,11 @@ function Hero() {
           )}
         />
       </div>
-      <FlickeringGridRoundedDemo/>
       <div className="max-w-[1200px] mx-auto relative z-[99]  grid lg:grid-cols-2 lg:flex items-center ">
         <div className="max-w-[650px]">
           <h2 className="font-medium lg:font-[700] flex gap-[10px] items-center text-[#999] text-3xl lg:text-4xl">I am <HyperText>Asliddin</HyperText></h2>
           <h1 className="font-bold  text-4xl lg:text-6xl mb-5 lg:mb-7">Frontend Developer</h1>
-          <p className="opacity-[70%] text-xs lg:text-xl mb-7">I am a software engineer specializing in creating modern, scalable, and user-friendly applications. Skilled in problem solving and working independently, you can find out about me here.</p>
+          <p className="opacity-[70%] text-xs lg:text-xl mb-7">I am a software engineer, specializing in creating modern, scalable, and user-friendly applications. Skilled in problem solving and working independently, you can find out about me here.</p>
           <div className="flex gap-5 asliddin mb-5"> 
             <button ref={iconRef1} className="transiti"
               onMouseMove={(e) => handleMouseMove(e, iconRef1, innerRef1)}

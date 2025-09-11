@@ -64,31 +64,26 @@ export const educationData = [
 
 export const experienceData = [
     {
-        duration: 'sep 2024 - ...',
-        company: "Freelance",
-        location: "Remote",
-        job: 'Software Engineer',
-        paragrapgh: "As a freelancer, I have done many projects with clients on online platforms."
+        duration: 'feb 2025 - may 2025',
+        company: "NTD Group",
+        location: "Hybrid",
+        job: 'Frontend developer',
+        paragrapgh: `- We develop multiple startup projects such as Greenshop, Ashyo, Frontend-test, and Tayyor-biznes (my portfolio). Developed reusable component systems, enhancing development speed. Improved site performance and UX, leading to a 3x faster user flow. Tech stack: HTML, CSS, JavaScript, Typescript, React.js, Tailwind CSS, REST APIs.`
     },
     {
-        duration: 'mar 2025 - ...',
-        company: "Alfa Ecosystem",
-        location: "Remote (Moscow)",
-        job: 'Frontend Developer',
-        paragrapgh: "We built several startup projects with the team, and I worked on the Frontend Team. We have built payment systems in different ways"
+        duration: 'may 2025 - jul 2025',
+        company: "Itransition",
+        location: "Tashkent, Uzbekistan (online)",
+        job: 'Fullstack software engineer (internship)',
+        paragrapgh: "- We completed fullstack programs with using react and node js. We build a program similar to Google Forms as a course project, and we defended it. At the end of the internship, we integrated this program with CRM programs such as Salesforce and Power Automation"
     }
 ]
 
 export const portfolioBigData = [
     {
-        demo: "https://nextjs-project-chi-two.vercel.app",
-        github: "https://github.com/asliddinrashidovich/nextjs-project",
-        img: "/images/potfoliyo/portfolio/Nextjs blog/next-js-blog.png"
-    },
-    {
-        demo: "https://heroic-yeot-38b858.netlify.app",
-        github: "https://github.com/asliddinrashidovich/youtube-lite-clone",
-        img: "/images/potfoliyo/portfolio/youtube clone/youtube-clone.png"
+        demo: "https://find-edu-i75x.vercel.app",
+        github: "https://github.com/asliddinrashidovich/find-edu",
+        img: "/images/potfoliyo/portfolio/Find edu/find_edu.png"
     },
     {
         demo: "https://green-shop-nine-iota.vercel.app",
@@ -99,6 +94,16 @@ export const portfolioBigData = [
         demo: "https://tayyor-biznes.vercel.app",
         github: "https://github.com/asliddinrashidovich/tayyor-biznes",
         img: "/images/potfoliyo/portfolio/Tayyor Biznes/tayyor-biznes-reja.png"
+    },
+    {
+        demo: "https://nextjs-project-chi-two.vercel.app",
+        github: "https://github.com/asliddinrashidovich/nextjs-project",
+        img: "/images/potfoliyo/portfolio/Nextjs blog/next-js-blog.png"
+    },
+    {
+        demo: "https://heroic-yeot-38b858.netlify.app",
+        github: "https://github.com/asliddinrashidovich/youtube-lite-clone",
+        img: "/images/potfoliyo/portfolio/youtube clone/youtube-clone.png"
     },
     {
         demo: "https://nextjs-test-project-theta.vercel.app",
@@ -134,11 +139,6 @@ export const portfolioBigData = [
         demo: "https://monito-six.vercel.app",
         github: "https://github.com/asliddinrashidovich/Monito",
         img: "/images/potfoliyo/portfolio/Monito/monito.png"
-    },
-    {
-        demo: "https://design-agensy.vercel.app",
-        github: "https://github.com/asliddinrashidovich/design-agensy",
-        img: "/images/potfoliyo/portfolio/Designisy/design_agensy.png"
     }
 ]
 
