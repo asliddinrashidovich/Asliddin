@@ -96,7 +96,7 @@ function Hero() {
             <button ref={iconRef4}
               onMouseMove={(e) => handleMouseMove(e, iconRef4, innerRef4)}
               onMouseLeave={() => handleMouseLeave(iconRef4, innerRef4)} >
-              <Link  className="hero_icon" target="_blank" href="https://www.linkedin.com/in/asliddin-rashidovich-774624336/">
+              <Link  className="hero_icon" target="_blank" href="https://www.linkedin.com/in/asliddinnorboyev">
                 <FaLinkedin ref={innerRef4} className="icon" fontSize={20}/>
               </Link>
             </button>
