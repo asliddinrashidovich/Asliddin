@@ -27,7 +27,7 @@ function Resume() {
                                 <h5 className='text-[#21c998] text-[17px] flex gap-[4px] items-center'><CiLocationOn /> {item.location}</h5>
                             </div>
                             <h4 className="card__title">{item.title}</h4>
-                            <p>{item.paragrapgh}</p>
+                            <div dangerouslySetInnerHTML={{ __html: `<p>${item.paragrapgh}</p>`}} />
                         </div>
                     ))}
                 </div>
@@ -45,7 +45,7 @@ function Resume() {
                             </div>
                             <h4 className="card__title">{item.company}</h4>
                             <h6 className="text-[#fefefe] mb-[20px]">{item.job}</h6>
-                            <p>{item.paragrapgh}</p>
+                            <div dangerouslySetInnerHTML={{ __html: `<p>${item.paragrapgh}</p>`}} />
                         </div>
                     ))}
                 </div>

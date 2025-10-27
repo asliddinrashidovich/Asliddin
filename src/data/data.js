@@ -1,7 +1,7 @@
 export const blogData = [
-    {
-        title: "@gdg_tashkent",
-        paragraph: `<p class="text-[#e1e3e4]">
+  {
+    title: "@gdg_tashkent",
+    paragraph: `<p class="text-[#e1e3e4]">
           ✨ That’s a wrap on Build with AI 2025 in 
           <a target="_blank" href="https://t.me/gdgtashkent" class="text-blue-500">GDG Tashkent</a> !, 
           <a target="_blank" href="https://www.linkedin.com/in/aleks-denisov" class="text-blue-500">Sasha Denisov</a>
@@ -11,13 +11,13 @@ export const blogData = [
           <span class="text-blue-500"> #gdg_tashkent</span>
           <a target="_blank" href="https://t.me/gdgtashkent" class="text-blue-500">@gdg_tashkent</a> !, 
         </p>`,
-        profile_img: "/images/blog/profile_img.jpg",
-        main_img: "/images/blog/gdg-tashkent.jpg",
-        authot: 'Asliddin Norboyev'
-    },
-    {
-        title: "@pdp_univercity",
-        paragraph: `<p class="text-[#e1e3e4]">
+    profile_img: "/images/blog/profile_img.jpg",
+    main_img: "/images/blog/gdg-tashkent.jpg",
+    authot: "Asliddin Norboyev",
+  },
+  {
+    title: "@pdp_univercity",
+    paragraph: `<p class="text-[#e1e3e4]">
             🏆 Republican Mathematics Olympiad — 2023. <br/>
             Fevral oyida 
             <a target="_blank" href="https://university.pdp.uz/uz" class="text-blue-500">PDP Univerity</a> !, 
@@ -26,13 +26,13 @@ export const blogData = [
             <span class="text-blue-500"> #pdp_olympyad</span>
             <a target="_blank" href="https://university.pdp.uz/uz" class="text-blue-500">@pdp_univerity</a> !, 
         </p>`,
-        profile_img: "/images/blog/profile_img.jpg",
-        main_img: "/images/blog/PDP-olimpyada.jpg",
-        authot: 'Asliddin Norboyev'
-    },
-    {
-        title: "@najot_talim",
-        paragraph: `<p class="text-[#e1e3e4]">
+    profile_img: "/images/blog/profile_img.jpg",
+    main_img: "/images/blog/PDP-olimpyada.jpg",
+    authot: "Asliddin Norboyev",
+  },
+  {
+    title: "@najot_talim",
+    paragraph: `<p class="text-[#e1e3e4]">
             ✨ Najot Ta'lim da super masterclass.
             Master-klass mehmoni Facebook, Amazjon kabi kompaniyalarda ishlagan va hozir Google'da faoliyat yuritayotgan 
             <a target="_blank" href="https://t.me/lazyprogrammer" class="text-blue-500">Azim Pulat</a> !, 
@@ -41,249 +41,303 @@ export const blogData = [
             <span class="text-blue-500"> #azim_pulat</span>
             <a target="_blank" href="https://t.me/najottalim" class="text-blue-500">@najot_talim</a> !, 
         </p>`,
-        profile_img: "/images/blog/profile_img.jpg",
-        main_img: "/images/blog/Azim po'lat.png",
-        authot: 'Asliddin Norboyev'
-    },
-]
+    profile_img: "/images/blog/profile_img.jpg",
+    main_img: "/images/blog/Azim po'lat.png",
+    authot: "Asliddin Norboyev",
+  },
+];
 
 export const educationData = [
-    {
-        duration: 'oct 2024 - ...',
-        title: "Najot Ta'lim",
-        location: "Tashkent",
-        paragrapgh: "I took lessons in web programming from professional teachers, and I learned all the knowledge necessary for the field of Frontend engineering. I did many projects and improved important soft skills and hard skills"
-    },
-    {
-        duration: 'sep 2025 - ...',
-        location: "Tashkent",
-        title: "Tashkent State University of Economics",
-        paragrapgh: "I am studying World Economics and Sectors and Industries in Economics at the University. My university is parttime and I study for 2 months a year."
-    }
-]
+  {
+    duration: "oct 2024 - may 2025",
+    title: "Najot Ta'lim",
+    location: "Tashkent",
+    paragrapgh: `- Students ranking 150/3000.
+    <br/>- I took lessons in web programming from professional teachers, and I learned all the necessary knowledge for Frontend
+    engineering. We developed many projects with developers in this course and I improved my soft skills and hard skills. <br/>
+    - I graduated from this 8 month course as the best among my classmates, twice getting 100 out of 100 points in the monthly
+    exams and always being first in the student rankings. <br/>
+    - After completing the course, I received a certificate from Najot Talim and my parents were also awarded with a certificate
+`,
+  },
+  {
+    duration: "sep 2025 - present",
+    location: "Tashkent",
+    title: "Tashkent State University of Economics",
+    paragrapgh: `- Cumulative GPA 4.25/4.5, <br/>
+    - Students ranking in DTM test results, 2nd out of about 3,000 students, DTM result: 170.9/189 <br/>
+    - My university is part-time (zauchno) and I study for 2 months a year. We participate in open classes, events, and laboratories
+    in Economics at the university`,
+  },
+];
 
 export const experienceData = [
-    {
-        duration: 'feb 2025 - may 2025',
-        company: "NTD Group",
-        location: "Hybrid",
-        job: 'Frontend developer',
-        paragrapgh: `- We develop multiple startup projects such as Greenshop, Ashyo, Frontend-test, and Tayyor-biznes (my portfolio). Developed reusable component systems, enhancing development speed. Improved site performance and UX, leading to a 3x faster user flow. Tech stack: HTML, CSS, JavaScript, Typescript, React.js, Tailwind CSS, REST APIs.`
-    },
-    {
-        duration: 'may 2025 - jul 2025',
-        company: "Itransition",
-        location: "Tashkent, Uzbekistan (online)",
-        job: 'Fullstack software engineer (internship)',
-        paragrapgh: "- We completed fullstack programs with using react and node js. We build a program similar to Google Forms as a course project, and we defended it. At the end of the internship, we integrated this program with CRM programs such as Salesforce and Power Automation"
-    }
-]
+  {
+    duration: "sep 2025 - present",
+    company: "Ibrat digital",
+    location: "Hybrid",
+    job: "Frontend developer",
+    paragrapgh: ` Project: Salaam Travel platform ERP system. One of the largest tourism companies in Uzbekistan. <br/>
+    Team size: 2 Frontend Developers, 1 Backend Developer, Project Manager<br/>
+    Task performed:<br/>
+    - Developed responsive UI components using React, Typescript, Shadcn and Tailwind CSS, publishing MVP in 2 months.<br/>
+    Technologies: React, Typescript, Shadcn UI, Tailwind CSS, HTML, CSS, Nuqs, Tanstack query, react i18nNext`,
+  },
+  {
+    duration: "may 2025 - jul 2025",
+    company: "Itransition",
+    location: "Hybrid",
+    job: "Fullstack software engineer (internship)",
+    paragrapgh: `Internship: Completed Software development internship training in Itransition company, one of the largest
+    software development companies in the world. <br/>
+    Tasks:<br/>
+    - Created a full stack project similar to Microsoft Power Point, and as a course project we built a clone of Google Forms.<br/>
+    Technologies: NodeJS, Express web framework, PostgreSQL, React, Typescript, MUI, Tailwind CSS, Tanstack query,
+    react i18nNext`,
+  },
+  {
+    duration: "feb 2025 - apr 2025",
+    company: "NTD Group",
+    location: "Hybrid",
+    job: "Frontend developer",
+    paragrapgh: `
+    Team size: 3 Frontend Developers, 1 Backend Developer <br/>
+    Task performed:<br/>
+    - Developed and published MVP projects <a href="https://green-shop-nine-iota.vercel.app/">Greenshop</a>, <a href="https://find-edu-i75x.vercel.app/">FindEdu</a>, <a href=""https://ashyo-fuwz.vercel.app/>Ashyo</a>, and <a href="https://tayyor-biznes.vercel.app/">Tayyor-biznes</a>.<br/>
+    - Designed and developed responsive UI components using mainly Next.js and Tailwind CSS in projects.<br/>
+    Technologies: React, Typescript, MUI,MagicUI, Tailwind CSS, HTML, CSS, Tanstack query, react i18nNext, Zustand`,
+  },
+];
 
 export const portfolioBigData = [
-    {
-        demo: "https://find-edu-i75x.vercel.app",
-        github: "https://github.com/asliddinrashidovich/find-edu",
-        img: "/images/potfoliyo/portfolio/Find edu/find_edu.png"
-    },
-    {
-        demo: "https://green-shop-nine-iota.vercel.app",
-        github: "https://github.com/asliddinrashidovich/green-shop",
-        img: "/images/potfoliyo/portfolio/Greenshop/greenshop.png"
-    },
-    {
-        demo: "https://tayyor-biznes.vercel.app",
-        github: "https://github.com/asliddinrashidovich/tayyor-biznes",
-        img: "/images/potfoliyo/portfolio/Tayyor Biznes/tayyor-biznes-reja.png"
-    },
-    {
-        demo: "https://nextjs-project-chi-two.vercel.app",
-        github: "https://github.com/asliddinrashidovich/nextjs-project",
-        img: "/images/potfoliyo/portfolio/Nextjs blog/next-js-blog.png"
-    },
-    {
-        demo: "https://heroic-yeot-38b858.netlify.app",
-        github: "https://github.com/asliddinrashidovich/youtube-lite-clone",
-        img: "/images/potfoliyo/portfolio/youtube clone/youtube-clone.png"
-    },
-    {
-        demo: "https://nextjs-test-project-theta.vercel.app",
-        github: "https://github.com/asliddinrashidovich/nextjs-test-project",
-        img: "/images/potfoliyo/portfolio/A-store/a-store.png"
-    },
-    {
-        demo: "https://dapper-hotteok-9faae6.netlify.app",
-        github: "https://github.com/asliddinrashidovich/react-projects-quiz-app",
-        img: "/images/potfoliyo/portfolio/frontend quiz/frontend-quiz.png"
-    },
-    {
-        demo: "https://book-shopping-livid.vercel.app",
-        github: "https://github.com/asliddinrashidovich/book-shopping",
-        img: "/images/potfoliyo/portfolio/Book shopping/book shopping.png"
-    },
-    {
-        demo: "https://netevia-industry.netlify.app",
-        github: "https://github.com/asliddinrashidovich/netevia-industry",
-        img: "/images/potfoliyo/portfolio/Netevia/netevia.png"
-    },
-    {
-        demo: "https://admin-dashboard-tau-dun.vercel.app",
-        github: "https://github.com/asliddinrashidovich/najot-talim-5-month-imtoxon",
-        img: "/images/potfoliyo/portfolio/Admin panel/admin_panel.png"
-    },
-    {
-        demo: "https://dashing-macaron-fe5e9c.netlify.app",
-        github: "https://github.com/asliddinrashidovich/Cafe-website-bootstrap",
-        img: "/images/potfoliyo/portfolio/Cafe Website/Restaurant_delevery.png"
-    },
-    {
-        demo: "https://monito-six.vercel.app",
-        github: "https://github.com/asliddinrashidovich/Monito",
-        img: "/images/potfoliyo/portfolio/Monito/monito.png"
-    }
-]
+  {
+    demo: "#",
+    github: "#",
+    img: "/images/potfoliyo/portfolio/Salaam travel/erp-salaam-travel.png",
+  },
+  {
+    demo: "https://itransition-course-project-full-site.onrender.com",
+    github: "https://github.com/asliddinrashidovich/itransition-course-project-ful-project",
+    img: "/images/potfoliyo/portfolio/Google forms/google-forms.png",
+  },
+  {
+    demo: "https://omon-trans.uz",
+    github: "#",
+    img: "/images/potfoliyo/portfolio/Omon trans/omon-trans.uz.png",
+  },
+  {
+    demo: "https://find-edu-i75x.vercel.app",
+    github: "https://github.com/asliddinrashidovich/find-edu",
+    img: "/images/potfoliyo/portfolio/Find edu/find_edu.png",
+  },
+  {
+    demo: "https://green-shop-nine-iota.vercel.app",
+    github: "https://github.com/asliddinrashidovich/green-shop",
+    img: "/images/potfoliyo/portfolio/Greenshop/greenshop.png",
+  },
+  {
+    demo: "https://tayyor-biznes.vercel.app",
+    github: "https://github.com/asliddinrashidovich/tayyor-biznes",
+    img: "/images/potfoliyo/portfolio/Tayyor Biznes/tayyor-biznes-reja.png",
+  },
+  {
+    demo: "https://nextjs-project-chi-two.vercel.app",
+    github: "https://github.com/asliddinrashidovich/nextjs-project",
+    img: "/images/potfoliyo/portfolio/Nextjs blog/next-js-blog.png",
+  },
+  {
+    demo: "https://heroic-yeot-38b858.netlify.app",
+    github: "https://github.com/asliddinrashidovich/youtube-lite-clone",
+    img: "/images/potfoliyo/portfolio/youtube clone/youtube-clone.png",
+  },
+  {
+    demo: "https://nextjs-test-project-theta.vercel.app",
+    github: "https://github.com/asliddinrashidovich/nextjs-test-project",
+    img: "/images/potfoliyo/portfolio/A-store/a-store.png",
+  },
+  {
+    demo: "https://dapper-hotteok-9faae6.netlify.app",
+    github: "https://github.com/asliddinrashidovich/react-projects-quiz-app",
+    img: "/images/potfoliyo/portfolio/frontend quiz/frontend-quiz.png",
+  },
+  {
+    demo: "https://book-shopping-livid.vercel.app",
+    github: "https://github.com/asliddinrashidovich/book-shopping",
+    img: "/images/potfoliyo/portfolio/Book shopping/book shopping.png",
+  },
+  {
+    demo: "https://netevia-industry.netlify.app",
+    github: "https://github.com/asliddinrashidovich/netevia-industry",
+    img: "/images/potfoliyo/portfolio/Netevia/netevia.png",
+  },
+  {
+    demo: "https://admin-dashboard-tau-dun.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/najot-talim-5-month-imtoxon",
+    img: "/images/potfoliyo/portfolio/Admin panel/admin_panel.png",
+  },
+  {
+    demo: "https://dashing-macaron-fe5e9c.netlify.app",
+    github: "https://github.com/asliddinrashidovich/Cafe-website-bootstrap",
+    img: "/images/potfoliyo/portfolio/Cafe Website/Restaurant_delevery.png",
+  },
+  {
+    demo: "https://monito-six.vercel.app",
+    github: "https://github.com/asliddinrashidovich/Monito",
+    img: "/images/potfoliyo/portfolio/Monito/monito.png",
+  },
+];
 
 export const portfolioMiniData = [
-    {
-        demo: "https://javascript-projects-calculator.vercel.app",
-        github: "https://github.com/asliddinrashidovich/javascript-projects-calculator",
-        img: "/images/potfoliyo/portfolio/Calculator/calculator.png"
-    },
-    {
-        demo: "https://javascript-project-mini-two-dice-game.vercel.app",
-        github: "https://github.com/asliddinrashidovich/javascript-project-minidice-game",
-        img: "/images/potfoliyo/portfolio/Dice game/mini_dice_game.png"
-    },
-    {
-        demo: "https://javascript-projects-expense-tracker.vercel.app",
-        github: "https://github.com/asliddinrashidovich/javascript-projects-expense-tracker",
-        img: "/images/potfoliyo/portfolio/Expense tracker/exp.png"
-    },
-    {
-        demo: "https://movie-app-react-js-javascript.netlify.app",
-        github: "https://github.com/asliddinrashidovich/samarbadriddinov-project",
-        img: "/images/potfoliyo/portfolio/Movie app/movie_app.png"
-    },
-    {
-        demo: "https://javascript-projects-todolist.vercel.app",
-        github: "https://github.com/asliddinrashidovich/javascript-projects-todolist",
-        img: "/images/potfoliyo/portfolio/Todo list/todo_list_crud.png"
-    },
-    {
-        demo: "https://roaring-paletas-0efcad.netlify.app",
-        github: "https://github.com/asliddinrashidovich/javascript-projects-rock-paper-scissors-game",
-        img: "/images/potfoliyo/portfolio/Rock paper scissors/rock_paper_scissor.png"
-    },
-    {
-        demo: "https://javascript-projects-weather-app.vercel.app",
-        github: "https://github.com/asliddinrashidovich/javascript-projects-weather-app",
-        img: "/images/potfoliyo/portfolio/Weather app/current_weather_app.png"
-    },
-    {
-        demo: "https://javascript-projects-random-user.vercel.app",
-        github: "https://github.com/asliddinrashidovich/react-projects-create-user",
-        img: "/images/potfoliyo/portfolio/Random user/random_user_generator.png"
-    },
-    {
-        demo: "https://javascript-projects-random-quote.vercel.app",
-        github: "https://github.com/asliddinrashidovich/javascript-projects-random-quote",
-        img: "/images/potfoliyo/portfolio/Quto generator/random_quoto.png"
-    },
-    {
-        demo: "https://najot-talim-project-rating.vercel.app",
-        github: "https://github.com/asliddinrashidovich/najot-talim-project-rating",
-        img: "/images/potfoliyo/portfolio/Student rating/students_rating.png"
-    },
-    {
-        demo: "https://najottalim-5-oy-todo-list.vercel.app",
-        github: "https://github.com/asliddinrashidovich/najottalim-5-oy-todo-list",
-        img: "/images/potfoliyo/portfolio/Todo app/todo_app.png"
-    },
-    {
-        demo: "https://javascript-projects-word-counter.vercel.app",
-        github: "https://github.com/asliddinrashidovich/javascript-projects-word-counter",
-        img: "/images/potfoliyo/portfolio/Word counter/word_counter.png"
-    }
-]
+  {
+    demo: "https://javascript-projects-calculator.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-projects-calculator",
+    img: "/images/potfoliyo/portfolio/Calculator/calculator.png",
+  },
+  {
+    demo: "https://javascript-project-mini-two-dice-game.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-project-minidice-game",
+    img: "/images/potfoliyo/portfolio/Dice game/mini_dice_game.png",
+  },
+  {
+    demo: "https://javascript-projects-expense-tracker.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-projects-expense-tracker",
+    img: "/images/potfoliyo/portfolio/Expense tracker/exp.png",
+  },
+  {
+    demo: "https://movie-app-react-js-javascript.netlify.app",
+    github: "https://github.com/asliddinrashidovich/samarbadriddinov-project",
+    img: "/images/potfoliyo/portfolio/Movie app/movie_app.png",
+  },
+  {
+    demo: "https://javascript-projects-todolist.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-projects-todolist",
+    img: "/images/potfoliyo/portfolio/Todo list/todo_list_crud.png",
+  },
+  {
+    demo: "https://roaring-paletas-0efcad.netlify.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-projects-rock-paper-scissors-game",
+    img: "/images/potfoliyo/portfolio/Rock paper scissors/rock_paper_scissor.png",
+  },
+  {
+    demo: "https://javascript-projects-weather-app.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-projects-weather-app",
+    img: "/images/potfoliyo/portfolio/Weather app/current_weather_app.png",
+  },
+  {
+    demo: "https://javascript-projects-random-user.vercel.app",
+    github: "https://github.com/asliddinrashidovich/react-projects-create-user",
+    img: "/images/potfoliyo/portfolio/Random user/random_user_generator.png",
+  },
+  {
+    demo: "https://javascript-projects-random-quote.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-projects-random-quote",
+    img: "/images/potfoliyo/portfolio/Quto generator/random_quoto.png",
+  },
+  {
+    demo: "https://najot-talim-project-rating.vercel.app",
+    github: "https://github.com/asliddinrashidovich/najot-talim-project-rating",
+    img: "/images/potfoliyo/portfolio/Student rating/students_rating.png",
+  },
+  {
+    demo: "https://najottalim-5-oy-todo-list.vercel.app",
+    github: "https://github.com/asliddinrashidovich/najottalim-5-oy-todo-list",
+    img: "/images/potfoliyo/portfolio/Todo app/todo_app.png",
+  },
+  {
+    demo: "https://javascript-projects-word-counter.vercel.app",
+    github:
+      "https://github.com/asliddinrashidovich/javascript-projects-word-counter",
+    img: "/images/potfoliyo/portfolio/Word counter/word_counter.png",
+  },
+];
 
 export const skillsData = [
-    {
-        img: "/images/scills/nodejs.png",
-        title: "Node JS",
-    },
-    {
-        img: "/images/scills/python.png",
-        title: "Python",
-    },
-    {
-        img: "/images/scills/tools/react.jpg",
-        title: "React JS",
-    },
-    {
-        img: "/images/scills/tools/javascript.jpg",
-        title: "Javascript",
-    },
-    {
-        img: "/images/scills/tools/typescript.jpg",
-        title: "Typescript",
-    },
-    {
-        img: "/images/scills/tools/nextjs.png",
-        title: "Next js",
-    },
-    {
-        img: "/images/scills/tools/redux.png",
-        title: "Redux",
-    },
-    {
-        img: "/images/scills/hygraph.png",
-        title: "Hygraph",
-    },
-    {
-        img: "/images/scills/firebase.webp",
-        title: "Firebase",
-    },
-    {
-        img: "/images/scills/tools/jest.png",
-        title: "Jest",
-    },
-    {
-        img: "/images/scills/ant-design.png",
-        title: "Ant Design",
-    },
-    {
-        img: "/images/scills/tools/tailwind_css.png",
-        title: "Tailwindcss",
-    },
-    {
-        img: "/images/scills/tools/material-ui.png",
-        title: "Material UI",
-    },
-    {
-        img: "/images/scills/tools/webpack.png",
-        title: "Webpack",
-    },
-    {
-        img: "/images/scills/tools/git.jpg",
-        title: "Git & Github",
-    },
-    {
-        img: "/images/scills/tools/html.jpg",
-        title: "HTML",
-    },
-    {
-        img: "/images/scills/tools/css.jpg",
-        title: "CSS",
-    },
-    {
-        img: "/images/scills/tools/bootstrap.jpg",
-        title: "Bootstrap",
-    },
-    {
-        img: "/images/scills/tools/sass.jpg",
-        title: "Sass",
-    },
-    {
-        img: "/images/scills/tools/figma.jpg",
-        title: "Figma",
-    },
-]
+  {
+    img: "/images/scills/nodejs.png",
+    title: "Node JS",
+  },
+  {
+    img: "/images/scills/python.png",
+    title: "Python",
+  },
+  {
+    img: "/images/scills/tools/react.jpg",
+    title: "React JS",
+  },
+  {
+    img: "/images/scills/tools/javascript.jpg",
+    title: "Javascript",
+  },
+  {
+    img: "/images/scills/tools/typescript.jpg",
+    title: "Typescript",
+  },
+  {
+    img: "/images/scills/tools/nextjs.png",
+    title: "Next js",
+  },
+  {
+    img: "/images/scills/tools/redux.png",
+    title: "Redux",
+  },
+  {
+    img: "/images/scills/hygraph.png",
+    title: "Hygraph",
+  },
+  {
+    img: "/images/scills/firebase.webp",
+    title: "Firebase",
+  },
+  {
+    img: "/images/scills/tools/jest.png",
+    title: "Jest",
+  },
+  {
+    img: "/images/scills/ant-design.png",
+    title: "Ant Design",
+  },
+  {
+    img: "/images/scills/tools/tailwind_css.png",
+    title: "Tailwindcss",
+  },
+  {
+    img: "/images/scills/tools/material-ui.png",
+    title: "Material UI",
+  },
+  {
+    img: "/images/scills/tools/webpack.png",
+    title: "Webpack",
+  },
+  {
+    img: "/images/scills/tools/git.jpg",
+    title: "Git & Github",
+  },
+  {
+    img: "/images/scills/tools/html.jpg",
+    title: "HTML",
+  },
+  {
+    img: "/images/scills/tools/css.jpg",
+    title: "CSS",
+  },
+  {
+    img: "/images/scills/tools/bootstrap.jpg",
+    title: "Bootstrap",
+  },
+  {
+    img: "/images/scills/tools/sass.jpg",
+    title: "Sass",
+  },
+  {
+    img: "/images/scills/tools/figma.jpg",
+    title: "Figma",
+  },
+];

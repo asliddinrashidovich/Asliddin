@@ -28,7 +28,7 @@ function About() {
             <div className="max-w-[800px] mx-auto lg:mx-0 mb-10 lg:mb-0">
                 <h3 className="text-white text-center lg:text-start text-2xl lg:text-4xl font-medium lg:font-semibold mb-5">I am 
                     <span className="text-[#21c998]"> Asliddin Norboyev Rashidovich, </span> <br />
-                    a Software Engineer
+                    a Frontend Engineer
                 </h3>
             <p className="text-white text-center text-xs lg:text-xl lg:text-start opacity-[70%] mb-3 lg:mb-5">I was born on January 24, 2006 in a small town in the Zjarkurgan district of the Surkhandarya region of the Republic of Uzbekistan. My main profession is programming.</p>
             <p className="text-white text-center text-xs lg:text-xl lg:text-start opacity-[70%]">I am interested in the digital technology and I am constantly trying to learn technologies that will be useful to humanity.</p>
