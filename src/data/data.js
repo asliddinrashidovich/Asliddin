@@ -111,16 +111,6 @@ export const experienceData = [
 
 export const portfolioBigData = [
   {
-    demo: "#",
-    github: "#",
-    img: "/images/potfoliyo/portfolio/Salaam travel/erp-salaam-travel.png",
-  },
-  {
-    demo: "https://itransition-course-project-full-site.onrender.com",
-    github: "https://github.com/asliddinrashidovich/itransition-course-project-ful-project",
-    img: "/images/potfoliyo/portfolio/Google forms/google-forms.png",
-  },
-  {
     demo: "https://omon-trans.uz",
     github: "#",
     img: "/images/potfoliyo/portfolio/Omon trans/omon-trans.uz.png",
@@ -175,11 +165,6 @@ export const portfolioBigData = [
     github:
       "https://github.com/asliddinrashidovich/najot-talim-5-month-imtoxon",
     img: "/images/potfoliyo/portfolio/Admin panel/admin_panel.png",
-  },
-  {
-    demo: "https://dashing-macaron-fe5e9c.netlify.app",
-    github: "https://github.com/asliddinrashidovich/Cafe-website-bootstrap",
-    img: "/images/potfoliyo/portfolio/Cafe Website/Restaurant_delevery.png",
   },
   {
     demo: "https://monito-six.vercel.app",
@@ -265,8 +250,8 @@ export const skillsData = [
     title: "Node JS",
   },
   {
-    img: "/images/scills/python.png",
-    title: "Python",
+    img: "/images/scills/express.png",
+    title: "Express js",
   },
   {
     img: "/images/scills/tools/react.jpg",
@@ -289,16 +274,16 @@ export const skillsData = [
     title: "Redux",
   },
   {
-    img: "/images/scills/hygraph.png",
-    title: "Hygraph",
+    img: "/images/scills/mongodb.png",
+    title: "MongoDB",
   },
   {
     img: "/images/scills/firebase.webp",
     title: "Firebase",
   },
   {
-    img: "/images/scills/tools/jest.png",
-    title: "Jest",
+    img: "/images/scills/shadcn.png",
+    title: "Shadcn UI",
   },
   {
     img: "/images/scills/ant-design.png",

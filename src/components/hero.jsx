@@ -3,9 +3,8 @@
 import Link from "next/link";
 import { GridPattern } from "./magicui/grid-pattern";
 import { cn } from "@/lib/utils";
-import { FaInstagram } from "react-icons/fa6";
 import { SiTelegram } from "react-icons/si";
-import { FaYoutube } from "react-icons/fa";
+import { FaGithub, FaYoutube } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { HyperText } from "./magicui/hyper-text";
 import { useRef } from "react";
@@ -77,11 +76,10 @@ function Hero() {
             Frontend Developer
           </h1>
           <p className="opacity-[70%] text-xs lg:text-xl mb-7">
-            1 years of commercial development experience in web development
-            (API, Web UI, mainly Frontend). My expertise lies in modern web
-            technologies, especially JavaScript/TypeScript, React/Next.js., a
-            passionate learner, and an active team member. Interests:
-            algorithms, AI, web development.
+            Hardworking and friendly web developer (API, Web UI, mainly
+            Frontend). My expertise lies in modern web technologies, especially
+            JavaScript/TypeScript, React/Next.js., a passionate learner, and an
+            active team member. Interests: algorithms, AI, web development.
           </p>
           <div className="flex gap-5 asliddin mb-5">
             <button
@@ -93,9 +91,9 @@ function Hero() {
               <Link
                 className="hero_icon"
                 target="_blank"
-                href="https://www.instagram.com/asliddin.norboyev_/"
+                href="https://github.com/asliddinrashidovich"
               >
-                <FaInstagram ref={innerRef1} className="icon" fontSize={20} />
+                <FaGithub ref={innerRef1} className="icon" fontSize={20} />
               </Link>
             </button>
             <button
@@ -144,13 +142,6 @@ function Hero() {
               <FiDownload />
             </span>
           </ShimmerButton>
-        </div>
-        <div className="max-w-[800px] lg:max-w-[600px] max-h-[800px] lg:max-h-[600px]  mx-auto rounded-full order-[-1] lg:order-none select-none mb-10 lg:mb-0 ">
-          <img
-            src="./images/hero/hero_img.png"
-            alt="hero img"
-            className="w-full h-full rounded-full object-cover pointer-events-none"
-          />
         </div>
       </div>
     </section>

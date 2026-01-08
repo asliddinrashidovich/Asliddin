@@ -20,8 +20,8 @@ function Header() {
       };
   }, []);
   return (
-    <header className={`top-0 fixed w-full px-5 md:px-10 z-999  ${ scrolled ? "bg-[#353a40] bg-white/10 backdrop-blur-md" : "bg-transparent"}`}  id="header">
-      <div className="max-w-[1200px] mx-auto  flex justify-between items-center">
+    <header className={`top-0 fixed w-full px-5 z-999  ${ scrolled ? "bg-[#353a40] bg-white/10 backdrop-blur-md" : "bg-transparent"}`}  id="header">
+      <div className="max-w-[1200px] mx-auto px-5 flex justify-between items-center">
         <button id="btn" className="flex lg:hidden border-none bg-transparent   text-[30px] hover:text-[#21c998] transition-all duration-300 cursor-pointer">
           <IoMenu />
         </button>

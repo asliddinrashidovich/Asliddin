@@ -27,21 +27,6 @@ function Portfolio() {
                     </div>
                 ))}
             </div>
-            <div className="mini_portfolioCards">
-                {portfolioMiniData.map(item => (
-                    <div key={item.github} data-aos="zoom-out-up" data-aos-duration="500" className="portfolio__card">
-                        <div className="port">
-                            <a target="_blank" href={item.github}  className="portfolio_link">
-                                <FaGithub />
-                            </a>
-                            <a target="_blank" href={item.demo} className="portfolio_link">
-                                <CiGlobe />
-                            </a>
-                        </div>
-                        <img src={item.img} alt="mini portfolio img"/>
-                    </div>
-                ))}
-            </div>
         </div>
         <div className="container">
             <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Awards</h3>
