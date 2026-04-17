@@ -34,16 +34,19 @@ function About() {
                 {" "}
                 Asliddin Norboyev Rashidovich,{" "}
               </span>{" "}
-              <br />a Frontend Engineer
+              <br />a Software Engineer
             </h3>
             <p className="text-white text-center text-xs lg:text-xl lg:text-start opacity-[70%] mb-3 lg:mb-5">
               I was born on January 24, 2006 in a small town in the Zjarkurgan
               district of the Surkhandarya region of the Republic of Uzbekistan.
               My main profession is programming.
             </p>
-            <p className="text-white text-center text-xs lg:text-xl lg:text-start opacity-[70%]">
-              I am interested in the digital technology and I am constantly
-              trying to learn technologies that will be useful to humanity.
+            <p className="text-white text-center text-xs lg:text-xl lg:text-start opacity-[70%] mb-3 lg:mb-5">
+              Hardworking and friendly Software Engineer (API, Web, APP, UI) and
+              focused on the quality of work. My expertise lies in modern web
+              technologies, especially JavaScript/TypeScript, React/Next.js.and,
+              a passionate learner, skilled in using AI tools and an active team
+              member. Interests: Algorithms, AI, Software engineering, Big data
             </p>
           </div>
           <div className="lg:max-w-[400px] w-full ">
@@ -59,11 +62,11 @@ function About() {
             </h4>
             <div className="w-full h-[1px] bg-[#555]"></div>
             <h4 className="text-white text-[14px] lg:text-[16px] my-3">
-              Age: {19}
+              Age: {20}
             </h4>
             <div className="w-full h-[1px] bg-[#555]"></div>
             <h4 className="text-white text-[14px] lg:text-[16px] mt-3 mb-8">
-              From: O'zbekiston, Surxondaryo
+              From: O'zbekiston, Tashkent
             </h4>
             <ShimmerButton onClick={handleDownload} className="shadow-2xl">
               <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 flex gap-[10px] lg:text-lg">

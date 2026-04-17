@@ -63,7 +63,7 @@ function Hero() {
           x={-1}
           y={-1}
           className={cn(
-            "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] brightness-[99%]"
+            "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] brightness-[99%]",
           )}
         />
       </div>
@@ -73,13 +73,14 @@ function Hero() {
             I am <HyperText>Asliddin</HyperText>
           </h2>
           <h1 className="font-bold  text-4xl lg:text-6xl mb-5 lg:mb-7">
-            Frontend Developer
+            Software Engineer
           </h1>
           <p className="opacity-[70%] text-xs lg:text-xl mb-7">
-            Hardworking and friendly web developer (API, Web UI, mainly
-            Frontend). My expertise lies in modern web technologies, especially
-            JavaScript/TypeScript, React/Next.js., a passionate learner, and an
-            active team member. Interests: algorithms, AI, web development.
+            Hardworking and friendly Software Engineer (API, Web, app, UI) and
+            focused on the quality of work. My expertise lies in modern web
+            technologies, especially JavaScript/TypeScript, React/Next.js.and, a
+            passionate learner, skilled in using AI tools and an active team
+            member. Interests: Algorithms, AI, Software engineering, Big data
           </p>
           <div className="flex gap-5 asliddin mb-5">
             <button
@@ -137,11 +138,18 @@ function Hero() {
             </button>
           </div>
           <ShimmerButton onClick={handleDownload} className="shadow-2xl">
-            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 flex gap-[10px] lg:text-lg">
+            <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 flex gap-[30px] lg:text-lg">
               Download CV
               <FiDownload />
             </span>
           </ShimmerButton>
+        </div>
+        <div className="max-w-[800px] lg:max-w-[400px] max-h-[800px] lg:max-h-[600px]  mx-auto rounded-[10px] order-[-1] lg:order-none select-none mb-10 lg:mb-0 ">
+          <img
+            src="./images/hero/avatar.jpg"
+            alt="hero img"
+            className="w-full h-full rounded-[30px] object-cover pointer-events-none"
+          />
         </div>
       </div>
     </section>

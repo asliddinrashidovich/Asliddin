@@ -35,7 +35,7 @@ function Portfolio() {
                     <h4 data-aos="fade-up" data-aos-duration="900">Finalist of the Republican <span className="marked">Mathematics Olympiad</span></h4>
                     <p data-aos="fade-up" data-aos-duration="900">I participated in the Republican Mathematics Olympiad organized by PDP University & IT Park in 2023. I scored high points and became a participant in the final stage. In addition, I have participated in many competitions in Chess and Mathematics and have won many competitions.</p>
                 </div>
-                <div  data-aos="fade-up" data-aos-duration="500" className="award__img relative w-[500px] ">
+                <div  data-aos="fade-up" data-aos-duration="500" className="award__img relative max-w-[500px] ">
                     <img src="./images/awards/certificateFinal.png" alt="sertificate"/>
                 </div>
             </div>

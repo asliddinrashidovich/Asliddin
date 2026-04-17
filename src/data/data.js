@@ -61,7 +61,7 @@ export const educationData = [
 `,
   },
   {
-    duration: "sep 2025 - present",
+    duration: "sep 2024 - present",
     location: "Tashkent",
     title: "Tashkent State University of Economics",
     paragrapgh: `- Cumulative GPA 4.25/4.5, <br/>
@@ -73,7 +73,25 @@ export const educationData = [
 
 export const experienceData = [
   {
-    duration: "sep 2025 - present",
+    duration: "jan 2026 - present",
+    company: "Albaraka korea",
+    location: "Remote",
+    job: "Software Engineer",
+    paragrapgh: ` Albaraka.com, Albazaar.com - E-commerce platform selling halal meat products in South Korea
+      Task performed: <br/>
+      - Performed and developed of ERP, Web, and Mobile applications for Albaraka <br/>
+      - Developed new components into existing internal UI package, Developed project architecture and project setup with 
+      Reactjs, Shadcn UI, Tailwind CSS, Zustand, Zod for ERP system <br/>
+      - Integrated direct bank transfer and card payment systems and Integrated daum API with Kakao for choosing address <br/>
+      - Developed backend using Node js and Express, updated controllers and modules and developed new REST APIs <br/>
+      - Improved code quality and stability with unit, integration and E2E tests in Jest and increased test coverage from 0% to 50% <br/>
+      - Optimized app performance by lazy loading components and improving responsiveness in an Expo-based React Native app <br/>
+      Technologies: Typescript, React, Nextjs, Nodejs, Express, Vue, Nuxt, React Native, Expo, Unittest, Jest, Zustand, Zod, Tailwind
+      css, Shadcn UI, MongoDB
+      `,
+  },
+  {
+    duration: "sep 2025 - jan 2026",
     company: "Ibrat digital",
     location: "Hybrid",
     job: "Frontend developer",
