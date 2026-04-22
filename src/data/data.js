@@ -129,7 +129,22 @@ export const experienceData = [
 
 export const portfolioBigData = [
   {
-    demo: "https://omon-trans.uz",
+    demo: "https://telegram-h22w-sepia.vercel.app",
+    github: "https://github.com/asliddinrashidovich/telegram",
+    img: "/images/potfoliyo/portfolio/Telegram/telegram.png",
+  },
+  // {
+  //   demo: "https://itransition-course-project-full-site.onrender.com",
+  //   github: "https://github.com/asliddinrashidovich/itransition-course-project-ful-project",
+  //   img: "/images/potfoliyo/portfolio/Google forms/google-forms.png",
+  // },
+  {
+    demo: "https://green-shop-nine-iota.vercel.app",
+    github: "https://github.com/asliddinrashidovich/green-shop",
+    img: "/images/potfoliyo/portfolio/Greenshop/greenshop.png",
+  },
+  {
+    demo: "https://omonlogistics.uz",
     github: "#",
     img: "/images/potfoliyo/portfolio/Omon trans/omon-trans.uz.png",
   },
@@ -139,19 +154,9 @@ export const portfolioBigData = [
     img: "/images/potfoliyo/portfolio/Find edu/find_edu.png",
   },
   {
-    demo: "https://green-shop-nine-iota.vercel.app",
-    github: "https://github.com/asliddinrashidovich/green-shop",
-    img: "/images/potfoliyo/portfolio/Greenshop/greenshop.png",
-  },
-  {
     demo: "https://tayyor-biznes.vercel.app",
     github: "https://github.com/asliddinrashidovich/tayyor-biznes",
     img: "/images/potfoliyo/portfolio/Tayyor Biznes/tayyor-biznes-reja.png",
-  },
-  {
-    demo: "https://nextjs-project-chi-two.vercel.app",
-    github: "https://github.com/asliddinrashidovich/nextjs-project",
-    img: "/images/potfoliyo/portfolio/Nextjs blog/next-js-blog.png",
   },
   {
     demo: "https://heroic-yeot-38b858.netlify.app",
@@ -159,10 +164,15 @@ export const portfolioBigData = [
     img: "/images/potfoliyo/portfolio/youtube clone/youtube-clone.png",
   },
   {
-    demo: "https://nextjs-test-project-theta.vercel.app",
-    github: "https://github.com/asliddinrashidovich/nextjs-test-project",
-    img: "/images/potfoliyo/portfolio/A-store/a-store.png",
+    demo: "https://nextjs-project-chi-two.vercel.app",
+    github: "https://github.com/asliddinrashidovich/nextjs-project",
+    img: "/images/potfoliyo/portfolio/Nextjs blog/next-js-blog.png",
   },
+  // {
+  //   demo: "https://nextjs-test-project-theta.vercel.app",
+  //   github: "https://github.com/asliddinrashidovich/nextjs-test-project",
+  //   img: "/images/potfoliyo/portfolio/A-store/a-store.png",
+  // },
   {
     demo: "https://dapper-hotteok-9faae6.netlify.app",
     github: "https://github.com/asliddinrashidovich/react-projects-quiz-app",
@@ -284,8 +294,20 @@ export const skillsData = [
     title: "Typescript",
   },
   {
+    img: "/images/scills/python.png",
+    title: "Python",
+  },
+  {
     img: "/images/scills/tools/nextjs.png",
     title: "Next js",
+  },
+  {
+    img: "/images/scills/tools/vue.png",
+    title: "Vue",
+  },
+  {
+    img: "/images/scills/tools/nuxt.png",
+    title: "Nuxt",
   },
   {
     img: "/images/scills/tools/redux.png",
@@ -342,5 +364,17 @@ export const skillsData = [
   {
     img: "/images/scills/tools/figma.jpg",
     title: "Figma",
+  },
+  {
+    img: "/images/scills/tools/socket-io.png",
+    title: "Socket.IO",
+  },
+  {
+    img: "/images/scills/tools/jest.png",
+    title: "Jest",
+  },
+  {
+    img: "/images/scills/tools/cypress.webp",
+    title: "Cypress",
   },
 ];
